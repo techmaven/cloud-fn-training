@@ -1,0 +1,40 @@
+100:You put the sexy in dyslexia.:nonsense
+101:Seven days without a pun makes one weak.:nonsense
+102:An Englishman thinks a hundred miles is a long way while an American thinks a hundred years is a long time:wisdom
+103:Save energy, use a small font.:tech
+104:With great power comes great heat sinks.:tech
+105:Hard work often pays off after time, but laziness always pays off now.:wisdom
+106:Objects in calendar are closer than they appear.:wisdom
+107:Ask me about my Vow of Silence.:nonsense
+108:If you don't have a dark secret in your past, it's never to late to get one.:wisdom
+109:The secret to success is being able to make mistakes faster.:wisdom
+110:Documentation is like sex: when it's good, it's great; when it's bad, it's better than nothing.:tech
+111:A complex design is the sign of an inferior designer.:wisdom
+112:You are one-in-a-million, there are only 6000 people just like you.:nonsense
+113:Life is like an analogy.:nonsense
+114:If debugging is the process of removing bugs, then coding is the process of putting them in.:tech
+115:What boots up must come down.:tech
+116:Disregard previous fortune.:nonsense
+117:Someone will win the lottery, just not you.:wisdom
+118:Money is in your future, it's just not yours.:wisdom
+119:If you think no one cares you're alive, try breaking the build.:tech
+120:Stop procrastinating tomorrow.:nonsense
+121:Help! I'm trapped in a Google data center!:nonsense
+122:A SQL query goes to a restaurant, walks up to 2 tables and says “Can I join you”?:nonsense
+123:Strive for simplicity, you will never have to fix what you leave out.:wisdom
+124:Begin with simplicity, then add lightness.:wisdom
+125:This fortune intentionally left blank.:nonsense
+126:This fortune reserved for future use.:nonsense
+127:Don't worry about the world coming to an end today.  It's already tomorrow in Australia.:nonsense
+128:Congratulations, you are not illiterate.:nonsense
+129:Never trust the cloud.:wisdom
+130:You have new mail.:tech
+131:Your password will expire in 3 minutes.:tech
+132:Are you really sure you're not a robot?:nonsense
+133:If at first you don't succeed, Google Stack Overflow.:tech
+134:Your disk is nearly full, buy stock in Seagate.:tech
+135:The reason computer chips are so small is computers don't eat much.:wisdom
+136:There are three simple rules for writing completely bug free code. Unfortunately, no one knows what they are.:tech
+137:You will have an out of money experience.:wisdom
+138:If you go Dutch, you get what you pay for.:wisdom
+139:To discover a developer's faults, praise him to his teammates.:wisdom
