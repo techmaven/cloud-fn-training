@@ -6,7 +6,7 @@
 105:Hard work often pays off after time, but laziness always pays off now.:wisdom
 106:Objects in calendar are closer than they appear.:wisdom
 107:Ask me about my Vow of Silence.:nonsense
-108:If you don't have a dark secret in your past, it's never to late to get one.:wisdom
+108:If you don't have a dark secret in your past, it's never to late to make one.:wisdom
 109:The secret to success is being able to make mistakes faster.:wisdom
 110:Documentation is like sex: when it's good, it's great; when it's bad, it's better than nothing.:tech
 111:A complex design is the sign of an inferior designer.:wisdom
@@ -37,4 +37,4 @@
 136:There are three simple rules for writing completely bug free code. Unfortunately, no one knows what they are.:tech
 137:You will have an out of money experience.:wisdom
 138:If you go Dutch, you get what you pay for.:wisdom
-139:To discover a developer's faults, praise him to his teammates.:wisdom
+139:To discover a developer's faults, praise him to his teammates.:tech
