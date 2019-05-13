@@ -5,7 +5,6 @@ import random
 from flask import jsonify
 from google.cloud import datastore
 
-
 def verify_web_hook(form):
     if not form or form.get('token') != os.environ['SLACK_VERIFICATION_TOKEN']:
         print('Credentials mismatch token = {} SLACK_VERIFICATION_TOKEN = {}'.format(form.get('token'),os.environ['SLACK_VERIFICATION_TOKEN']))
@@ -18,7 +17,7 @@ def slack_get_fortune(request):
     verify_web_hook(request.form)
 
     project_id = 'turing-outrider-209020'
-    client = datastore.Client(project_id)
+    client = datastore.Client(os.environ['GCP_PROJECT_ID'])
 
     code = str(random.randint(100,138))
     q = client.query(kind='Fortune')
@@ -30,3 +29,4 @@ def slack_get_fortune(request):
     else:
         fortune = entity_list[0]
         return(fortune['content']);
+

@@ -10,9 +10,7 @@ def add_contact(request):
     email = request_json['email']
     phone = request_json['phone']
 
-    project_id = 'gcp-cloud-functions-training'
-    project_id = 'turing-outrider-209020'
-    client = datastore.Client(project_id)
+    client = datastore.Client(os.environ['GCP_PROJECT_ID)
     complete_key = client.key('Contacts')
     contact = datastore.Entity(key=complete_key)
     contact.update({
@@ -24,3 +22,4 @@ def add_contact(request):
     client.put(contact)
 
     return('Contact added.\n',200)
+

@@ -9,9 +9,7 @@ def add_fortune(request):
     category = request_json['category']
     code = request_json['code']
 
-    project_id = 'gcp-cloud-functions-training'
-    project_id = 'turing-outrider-209020'
-    client = datastore.Client(project_id)
+    client = datastore.Client(os.environ['GCP_PROJECT_ID'])
     complete_key = client.key('Fortune')
     fortune = datastore.Entity(key=complete_key)
     fortune.update({
@@ -22,3 +20,4 @@ def add_fortune(request):
     client.put(fortune)
 
     return('Fortune added.\n',200)
+
