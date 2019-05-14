@@ -16,7 +16,6 @@ def slack_get_fortune(request):
         return 'Only POST requests are accepted', 405
     verify_web_hook(request.form)
 
-    project_id = 'turing-outrider-209020'
     client = datastore.Client(os.environ['GCP_PROJECT_ID'])
 
     code = str(random.randint(100,138))

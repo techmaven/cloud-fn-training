@@ -1,4 +1,5 @@
 
+import os
 from flask import escape
 from google.cloud import datastore
 
@@ -10,7 +11,7 @@ def add_contact(request):
     email = request_json['email']
     phone = request_json['phone']
 
-    client = datastore.Client(os.environ['GCP_PROJECT_ID)
+    client = datastore.Client(os.environ['GCP_PROJECT_ID'])
     complete_key = client.key('Contacts')
     contact = datastore.Entity(key=complete_key)
     contact.update({
