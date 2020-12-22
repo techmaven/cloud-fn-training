@@ -3,7 +3,7 @@ from flask import escape
 
 def hello_you(request):
     request_json = request.get_json(silent=True)
-    request_args = request.args
+    request_args = request.argsx
 
     if request_json and 'name' in request_json:
         name = request_json['name']

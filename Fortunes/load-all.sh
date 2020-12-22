@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-TRIGGER_URL=https://us-central1-turing-outrider-209020.cloudfunctions.net/add_fortune
+TRIGGER_URL=https://us-central1-cloud-fn-class.cloudfunctions.net/add_fortune
 
 curl -H "Content-Type: application/json" --data '{ "code": "100", "content": "You put the sexy in dyslexia.", "category": "nonsense" }' $TRIGGER_URL
 curl -H "Content-Type: application/json" --data '{ "code": "101", "content": "Seven days without a pun makes one weak.", "category": "nonsense" }' $TRIGGER_URL
